@@ -1,0 +1,769 @@
+dn: dc=nodomain
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: nodomain
+dc: nodomain
+
+dn: cn=admin,dc=nodomain
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+
+dn: dc=Premium Investments,dc=nodomain
+dc: Premium Investments
+objectClass: dcObject
+objectClass: organization
+o: Premium Investments.
+
+dn: dc=Jurassic Resources,dc=nodomain
+dc: Jurassic Resources
+objectClass: dcObject
+objectClass: organization
+o: Jurassic Resources.
+
+dn: dc=Jurassic Commercial Bank,dc=nodomain
+dc: Jurassic Commercial Bank
+objectClass: dcObject
+objectClass: organization
+o: Jurassic Commercial Bank.
+
+dn: dc=Jurassic Embezzlers,dc=nodomain
+dc: Jurassic Embezzlers
+objectClass: dcObject
+objectClass: organization
+o: Jurassic Embezzlers.
+
+dn: dc=Industrial Exports,dc=nodomain
+dc: Industrial Exports
+objectClass: dcObject
+objectClass: organization
+o: Industrial Exports.
+
+dn: ou=Inhuman resources,dc=Premium Investments,dc=nodomain
+ou: Inhuman resources
+objectClass: organizationalUnit
+
+dn: ou=Sub-divisions,ou=Inhuman resources,dc=Premium Investments,dc=nodomain
+ou: Sub-divisions
+objectClass: organizationalUnit
+
+dn: ou=Excessive hierarchy,ou=Inhuman resources,dc=Premium Investments,dc=nodomain
+ou: Excessive hierarchy
+objectClass: organizationalUnit
+
+dn: ou=Pest control,dc=Jurassic Resources,dc=nodomain
+ou: Pest control
+objectClass: organizationalUnit
+
+dn: ou=Statistical misinterpretation,ou=Pest control,dc=Jurassic Resources,dc=nodomain
+ou: Statistical misinterpretation
+objectClass: organizationalUnit
+
+dn: ou=Marketing,ou=Statistical misinterpretation,dc=Jurassic Resources,dc=nodomain
+ou: Marketing
+objectClass: organizationalUnit
+
+dn: ou=Human resources,dc=Jurassic Commercial Bank,dc=nodomain
+ou: Human resources
+objectClass: organizationalUnit
+
+dn: ou=market punctuation,ou=Human resources,dc=Jurassic Commercial Bank,dc=nodomain
+ou: market punctuation
+objectClass: organizationalUnit
+
+dn: ou=Statistical misinterpretation,ou=market punctuation,dc=Jurassic Commercial Bank,dc=nodomain
+ou: Statistical misinterpretation
+objectClass: organizationalUnit
+
+dn: ou=Interior decoration,ou=Human resources,dc=Jurassic Commercial Bank,dc=nodomain
+ou: Interior decoration
+objectClass: organizationalUnit
+
+dn: ou=Interior decoration,dc=Jurassic Embezzlers,dc=nodomain
+ou: Interior decoration
+objectClass: organizationalUnit
+
+dn: ou=Misappropriation,ou=Interior decoration,dc=Jurassic Embezzlers,dc=nodomain
+ou: Misappropriation
+objectClass: organizationalUnit
+
+dn: ou=Interplanetary exploration,dc=Industrial Exports,dc=nodomain
+ou: Interplanetary exploration
+objectClass: organizationalUnit
+
+dn: ou=Misappropriation,ou=Interplanetary exploration,dc=Industrial Exports,dc=nodomain
+ou: Misappropriation
+objectClass: organizationalUnit
+
+dn: ou=Sub-divisions,ou=Interplanetary exploration,dc=Industrial Exports,dc=nodomain
+ou: Sub-divisions
+objectClass: organizationalUnit
+
+dn: ou=Statistical misinterpretation,ou=Misappropriation,dc=Industrial Exports,dc=nodomain
+ou: Statistical misinterpretation
+objectClass: organizationalUnit
+
+dn: cn=Mitchell Jackson,ou=Statistical misinterpretation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Mitchell Jackson
+sn: Jackson
+mail: mitchell.jackson@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +68634884805
+telephoneNumber: +68634884373
+telephoneNumber: +68634884085
+
+dn: cn=Fiona Thomas,ou=Human resources,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Fiona Thomas
+sn: Thomas
+mail: fiona5t6@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +68634884233
+telephoneNumber: +68634884004
+manager: cn=Mitchell Jackson,ou=Statistical misinterpretation
+
+dn: cn=Flora Williams,ou=Misappropriation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Flora Williams
+sn: Williams
+mail: fwilliams@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672126830
+
+dn: cn=Mario Evans,ou=Sub-divisions,dc=Industrial Exports,dc=nodomain
+cn: Mario Evans
+sn: Evans
+mail: me3@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672126048
+
+dn: cn=Freya Cooper,ou=Sub-divisions,dc=Industrial Exports,dc=nodomain
+cn: Freya Cooper
+sn: Cooper
+mail: fcooper@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672126918
+manager: cn=Mario Evans,ou=Sub-divisions
+
+dn: cn=Martin Wright,ou=Excessive hierarchy,dc=Premium Investments,dc=nodomain
+cn: Martin Wright
+sn: Wright
+mail: martin.wright@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +68634884454
+telephoneNumber: +68634884965
+telephoneNumber: +68634884526
+
+dn: cn=Mitchell Davies,ou=Statistical misinterpretation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Mitchell Davies
+sn: Davies
+mail: mitchell8d6@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672107625
+telephoneNumber: +672107671
+telephoneNumber: +672107739
+manager: cn=Fiona Thomas,ou=Human resources
+
+dn: cn=Fiona Johnson,ou=Sub-divisions,dc=Industrial Exports,dc=nodomain
+cn: Fiona Johnson
+sn: Johnson
+mail: fj7@jurassicembezzlers.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Mario Evans,ou=Sub-divisions
+
+dn: cn=Frances Wilson,ou=Statistical misinterpretation,dc=Jurassic Resources,dc=nodomain
+cn: Frances Wilson
+sn: Wilson
+mail: frances7w6@jurassicembezzlers.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672102415
+telephoneNumber: +672102673
+
+dn: cn=Micah Wright,ou=Inhuman resources,dc=Premium Investments,dc=nodomain
+cn: Micah Wright
+sn: Wright
+mail: micah.wright@jurassicresources.com.au
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Martin Wright,ou=Excessive hierarchy
+
+dn: cn=Freya Thompson,ou=Excessive hierarchy,dc=Premium Investments,dc=nodomain
+cn: Freya Thompson
+sn: Thompson
+mail: fthompson@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Micah Wright,ou=Inhuman resources
+
+dn: cn=Mario Watson,ou=Interplanetary exploration,dc=Industrial Exports,dc=nodomain
+cn: Mario Watson
+sn: Watson
+mail: mario.watson@jurassicembezzlers.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672102788
+telephoneNumber: +672102896
+telephoneNumber: +672102914
+telephoneNumber: +672102859
+manager: cn=Fiona Johnson,ou=Sub-divisions
+
+dn: cn=Murphey King,ou=Statistical misinterpretation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Murphey King
+sn: King
+mail: mking@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +68634884526
+telephoneNumber: +68634884079
+telephoneNumber: +68634884983
+telephoneNumber: +68634884514
+manager: cn=Fiona Thomas,ou=Human resources
+
+dn: cn=Freya Martin,ou=Statistical misinterpretation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Freya Martin
+sn: Martin
+mail: fm13@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Mitchell Davies,ou=Statistical misinterpretation
+
+dn: cn=Freda Clarke,ou=market punctuation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Freda Clarke
+sn: Clarke
+mail: freda5c6@jurassicresources.com.au
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Murphey King,ou=Statistical misinterpretation
+
+dn: cn=Fleur Davies,ou=Statistical misinterpretation,dc=Jurassic Resources,dc=nodomain
+cn: Fleur Davies
+sn: Davies
+mail: fd15@jurassicresources.com.au
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +61714428868
+manager: cn=Frances Wilson,ou=Statistical misinterpretation
+
+dn: cn=Fiona Taylor,ou=Statistical misinterpretation,dc=Jurassic Resources,dc=nodomain
+cn: Fiona Taylor
+sn: Taylor
+mail: ftaylor@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672107636
+manager: cn=Fleur Davies,ou=Statistical misinterpretation
+
+dn: cn=Fran Jackson,ou=Statistical misinterpretation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Fran Jackson
+sn: Jackson
+mail: fran.jackson@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Freya Martin,ou=Statistical misinterpretation
+
+dn: cn=Fran Wright,ou=Interior decoration,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Fran Wright
+sn: Wright
+mail: fran4w6@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Fran Jackson,ou=Statistical misinterpretation
+
+dn: cn=Flora Thomas,ou=Excessive hierarchy,dc=Premium Investments,dc=nodomain
+cn: Flora Thomas
+sn: Thomas
+mail: ft19@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672126227
+telephoneNumber: +672126636
+manager: cn=Freya Thompson,ou=Excessive hierarchy
+
+dn: cn=Mitchell Thompson,ou=Statistical misinterpretation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Mitchell Thompson
+sn: Thompson
+mail: mitchell8t8@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672126470
+telephoneNumber: +672126866
+telephoneNumber: +672126000
+telephoneNumber: +672126108
+manager: cn=Fran Jackson,ou=Statistical misinterpretation
+
+dn: cn=Matthew Walker,ou=Misappropriation,dc=Jurassic Embezzlers,dc=nodomain
+cn: Matthew Walker
+sn: Walker
+mail: matthew.walker@jurassicembezzlers.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672102146
+telephoneNumber: +672102284
+telephoneNumber: +672102422
+manager: cn=Flora Williams,ou=Misappropriation
+
+dn: cn=Martin Johnson,ou=Statistical misinterpretation,dc=Jurassic Resources,dc=nodomain
+cn: Martin Johnson
+sn: Johnson
+mail: mj22@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Fiona Taylor,ou=Statistical misinterpretation
+
+dn: cn=Fiona Wood,ou=Human resources,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Fiona Wood
+sn: Wood
+mail: fiona5w4@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +68634884602
+manager: cn=Fiona Thomas,ou=Human resources
+
+dn: cn=Fiona Jackson,ou=Statistical misinterpretation,dc=Jurassic Resources,dc=nodomain
+cn: Fiona Jackson
+sn: Jackson
+mail: fiona5j7@jurassicembezzlers.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672102686
+telephoneNumber: +672102624
+manager: cn=Martin Johnson,ou=Statistical misinterpretation
+
+dn: cn=Matthew Williams,ou=Marketing,dc=Jurassic Resources,dc=nodomain
+cn: Matthew Williams
+sn: Williams
+mail: mwilliams@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672107176
+telephoneNumber: +672107141
+manager: cn=Fiona Jackson,ou=Statistical misinterpretation
+
+dn: cn=Freya Wood,ou=Interplanetary exploration,dc=Industrial Exports,dc=nodomain
+cn: Freya Wood
+sn: Wood
+mail: fwood@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672107176
+telephoneNumber: +672107141
+manager: cn=Freya Cooper,ou=Sub-divisions
+
+dn: cn=Flora Davies,ou=Marketing,dc=Jurassic Resources,dc=nodomain
+cn: Flora Davies
+sn: Davies
+mail: flora5d6@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672126236
+telephoneNumber: +672126880
+manager: cn=Matthew Williams,ou=Marketing
+
+dn: cn=Frances Williams,ou=Human resources,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Frances Williams
+sn: Williams
+mail: frances7w8@jurassicresources.com.au
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +61714428932
+telephoneNumber: +61714428814
+telephoneNumber: +61714428121
+telephoneNumber: +61714428826
+manager: cn=Mitchell Jackson,ou=Statistical misinterpretation
+
+dn: cn=Fifi Martin,ou=Pest control,dc=Jurassic Resources,dc=nodomain
+cn: Fifi Martin
+sn: Martin
+mail: fm29@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672107338
+telephoneNumber: +672107538
+telephoneNumber: +672107025
+manager: cn=Matthew Williams,ou=Marketing
+
+dn: cn=Fay Wood,ou=Marketing,dc=Jurassic Resources,dc=nodomain
+cn: Fay Wood
+sn: Wood
+mail: fwood@jurassiccommercialbank.com.ki
+objectClass: inetOrgPerson
+telephoneNumber: +68634884116
+telephoneNumber: +68634884232
+telephoneNumber: +68634884334
+telephoneNumber: +68634884968
+manager: cn=Martin Johnson,ou=Statistical misinterpretation
+
+dn: cn=Francesca Johnson,ou=Misappropriation,dc=Jurassic Embezzlers,dc=nodomain
+cn: Francesca Johnson
+sn: Johnson
+mail: fj31@jurassicembezzlers.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672102282
+telephoneNumber: +672102637
+manager: cn=Matthew Walker,ou=Misappropriation
+
+dn: cn=Freda Brown,ou=market punctuation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Freda Brown
+sn: Brown
+mail: fb32@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Fran Wright,ou=Interior decoration
+
+dn: cn=Flora Wood,ou=Human resources,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Flora Wood
+sn: Wood
+mail: fwood@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Fran Jackson,ou=Statistical misinterpretation
+
+dn: cn=Francesca Lee,ou=Interior decoration,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Francesca Lee
+sn: Lee
+mail: francesca.lee@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672107985
+manager: cn=Freda Clarke,ou=market punctuation
+
+dn: cn=Mario Cooper,ou=market punctuation,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Mario Cooper
+sn: Cooper
+mail: mario5c6@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Mitchell Thompson,ou=Statistical misinterpretation
+
+dn: cn=Mario White,ou=Excessive hierarchy,dc=Premium Investments,dc=nodomain
+cn: Mario White
+sn: White
+mail: mw36@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672107711
+telephoneNumber: +672107814
+manager: cn=Micah Wright,ou=Inhuman resources
+
+dn: cn=Martin Green,ou=Marketing,dc=Jurassic Resources,dc=nodomain
+cn: Martin Green
+sn: Green
+mail: mg37@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +68634884506
+telephoneNumber: +68634884262
+telephoneNumber: +68634884600
+manager: cn=Fleur Davies,ou=Statistical misinterpretation
+
+dn: cn=Francesca White,ou=Statistical misinterpretation,dc=Industrial Exports,dc=nodomain
+cn: Francesca White
+sn: White
+mail: fw38@jurassicembezzlers.com.aq
+objectClass: inetOrgPerson
+telephoneNumber: +672102904
+telephoneNumber: +672102408
+telephoneNumber: +672102433
+telephoneNumber: +672102576
+manager: cn=Mario Watson,ou=Interplanetary exploration
+
+dn: cn=Murphey Taylor,ou=Interior decoration,dc=Jurassic Commercial Bank,dc=nodomain
+cn: Murphey Taylor
+sn: Taylor
+mail: mtaylor@jurassicembezzlers.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672102980
+telephoneNumber: +672102930
+manager: cn=Fiona Wood,ou=Human resources
+
+dn: cn=Flora Smith,ou=Sub-divisions,dc=Premium Investments,dc=nodomain
+cn: Flora Smith
+sn: Smith
+mail: flora.smith@industrialexports.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672126846
+telephoneNumber: +672126122
+manager: cn=Martin Wright,ou=Excessive hierarchy
+
+dn: cn=Murray James,ou=Inhuman resources,dc=Premium Investments,dc=nodomain
+cn: Murray James
+sn: James
+mail: murray.james@premiuminvestments.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +672107318
+telephoneNumber: +672107116
+telephoneNumber: +672107293
+telephoneNumber: +672107351
+manager: cn=Freya Thompson,ou=Excessive hierarchy
+
+dn: cn=Fiona Watson,ou=Misappropriation,dc=Jurassic Embezzlers,dc=nodomain
+cn: Fiona Watson
+sn: Watson
+mail: fiona5w6@jurassicresources.com.au
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +61714428940
+telephoneNumber: +61714428939
+manager: cn=Flora Williams,ou=Misappropriation
+
+dn: cn=Mitchell Wilson,ou=Interplanetary exploration,dc=Industrial Exports,dc=nodomain
+cn: Mitchell Wilson
+sn: Wilson
+mail: mitchell8w6@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +68634884488
+telephoneNumber: +68634884234
+telephoneNumber: +68634884832
+manager: cn=Fiona Johnson,ou=Sub-divisions
+
+dn: cn=Fay Thomas,ou=Interplanetary exploration,dc=Industrial Exports,dc=nodomain
+cn: Fay Thomas
+sn: Thomas
+mail: ft44@jurassicembezzlers.com.aq
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+manager: cn=Mitchell Wilson,ou=Interplanetary exploration
+
+dn: cn=Magnus Brown,ou=Pest control,dc=Jurassic Resources,dc=nodomain
+cn: Magnus Brown
+sn: Brown
+mail: mb45@jurassicresources.com.au
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +61714428928
+telephoneNumber: +61714428912
+manager: cn=Frances Wilson,ou=Statistical misinterpretation
+
+dn: cn=Fiona Robinson,ou=Misappropriation,dc=Jurassic Embezzlers,dc=nodomain
+cn: Fiona Robinson
+sn: Robinson
+mail: fiona5r8@premiuminvestments.com.aq
+objectClass: inetOrgPerson
+telephoneNumber: +672107535
+telephoneNumber: +672107600
+manager: cn=Flora Williams,ou=Misappropriation
+
+dn: cn=Fran Wilson,ou=Pest control,dc=Jurassic Resources,dc=nodomain
+cn: Fran Wilson
+sn: Wilson
+mail: fran4w6@jurassiccommercialbank.com.ki
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+telephoneNumber: +68634884339
+manager: cn=Martin Johnson,ou=Statistical misinterpretation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
