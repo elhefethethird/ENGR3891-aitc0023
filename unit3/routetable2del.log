@@ -1,0 +1,6 @@
+Kernel IP routing table
+Destination     Gateway         Genmask         
+default         _gateway        0.0.0.0         
+10.0.2.0        0.0.0.0         255.255.255.0   
+10.1.1.0        0.0.0.0         255.255.255.0   
+link-local      0.0.0.0         255.255.0.0     

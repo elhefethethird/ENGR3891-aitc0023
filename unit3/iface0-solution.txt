@@ -1,0 +1,20 @@
+iface moths0 inet static
+	mtu 6111
+	hwaddress DD:06:D0:87:9F:D9
+
+iface castle1 inet static
+	mtu 3857
+	hwaddress 8D:E0:E4:EA:F4:FD
+
+iface ruins2 inet static
+	mtu 3952
+	hwaddress 32:FC:A2:CD:C5:9D
+
+iface eth0 inet static
+	address 88.1.205.175/29
+
+iface jam1 inet dhcp
+
+iface wlan2 inet static
+	address 118.135.214.96/14
+

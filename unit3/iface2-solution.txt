@@ -1,0 +1,39 @@
+iface moths0 inet static
+	mtu 6311
+	hwaddress 78:B0:73:EF:D6:5F
+
+iface moths1 inet static
+	mtu 8916
+	hwaddress 56:4B:7D:09:BE:49
+
+iface wealth2 inet static
+	mtu 5175
+	hwaddress 74:EE:28:20:84:8A
+
+iface castle3 inet static
+	mtu 4405
+	hwaddress C5:78:26:F2:C3:29
+
+iface ruins4 inet static
+	mtu 8472
+	hwaddress D9:30:2B:AF:8F:46
+
+iface eth0 inet static
+	address 100.105.141.229/17
+
+iface jam1 inet dhcp
+
+iface ftdi2 inet static
+	address 74.247.242.51/2
+
+iface eth3 inet static inherits moths0
+	address 38.98.80.127/2
+
+iface eth4 inet dhcp inherits ruins4
+
+iface wlan5 inet static
+	address 119.89.173.88/18
+
+iface jam6 inet static
+	address 82.103.251.251/4
+
